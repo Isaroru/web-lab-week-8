@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    color: rgb(133, 133, 133);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: #CE011E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+#cards_container{
+    padding-top: 4rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #CE011E;
+    margin: 22px 0 20px;
+}
+
+.product {
+    position: relative;
+    width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    transition: box-shadow;
+    box-shadow: 0 10px 25px -20px #1e1e1e;
+}
+
+.product_price {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    width: 100px;
+    height: 100px;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.product_title {
+    font-size: 3rem;
+    color: #1e1e1e;
+    margin: 0 0 0.5em 0;
+    line-height: 1.1;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1em 2rem;
+    white-space: nowrap;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.product_btn {
+    display: flex;
+    justify-content: center;
+    background-color: #CE011E;
+    transition: background-color, box-shadow;
+}
+
+.product_btn:hover {
+  background-color: #1e1e1e;
+}
